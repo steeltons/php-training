@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+    postgres:
+        image: postgres:15.3
+        environment:
+            POSTGRES_DB: jenjetsu
+            POSTGRES_USER: Stey
+            POSTGRES_PASSWORD: 1228
+        ports:
+            - "5001:5432"
