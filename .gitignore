@@ -88,3 +88,6 @@
 # composer.lock
 
 # End of https://www.toptal.com/developers/gitignore/api/composer
+
+# Add .gitignore from other directories (Only for you Symfony)
+**/.gitignore
